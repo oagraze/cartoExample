@@ -3,9 +3,9 @@ import { API_VERSIONS } from '@deck.gl/carto';
 
 export const initialState = {
   viewState: {
-    latitude: 31.802892,
-    longitude: -103.007813,
-    zoom: 2,
+    latitude: 23.634501,
+    longitude: -102.552784,
+    zoom: 4,
     pitch: 0,
     bearing: 0,
     dragRotate: false,
@@ -20,7 +20,7 @@ export const initialState = {
   oauth: {
     domain: 'auth.carto.com',
     // Type here your application client id
-    clientId: '',
+    clientId: 'G0Q24qPdyM2WiptNKihKGzXHlJgjFbhH',
     scopes: [
       'read:current_user',
       'update:current_user',
